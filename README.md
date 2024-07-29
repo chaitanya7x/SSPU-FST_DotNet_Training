@@ -1,1 +1,0 @@
-# SSPU-FST_DotNet_Training
