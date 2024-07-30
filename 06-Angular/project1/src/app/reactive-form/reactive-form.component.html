@@ -1,0 +1,41 @@
+<p>reactive-form works!</p>
+
+<h4>Reactive form objects are objects that provides us with the synchronous access to form value template-driven forms
+  since changes are asynchronous in template-driven forms <br>
+  import ReactiveFormModule,create a form group object</h4>
+<br>
+
+<form [formGroup]="myForm">
+  <h3>Registration Form</h3>
+
+  <div>
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" formControlName="fname">
+  </div>
+  <div>
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" formControlName="lname">
+  </div>
+  <div>
+    <label for="age">Age:</label>
+    <input type="number" id="age" formControlName="age">
+  </div>
+  <p></p>
+  <button type="submit">Save</button>
+</form>
+
+<div>
+  <h4>Form values:</h4>
+  <pre>{{ myForm.value | json }}</pre>
+</div>
+
+<ng-container *ngIf="myForm">
+  <h3>Form States</h3>
+  <div>InValid: {{myForm.invalid}}</div>
+  <div>Dirty: {{myForm.dirty}}</div>
+  <div>Touch: {{myForm.touched}}</div>
+  <div>pristine: {{myForm.pristine}}</div>
+  <div>Valid: {{myForm.valid}}</div>
+</ng-container>
+
+

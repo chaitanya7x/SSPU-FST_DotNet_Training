@@ -1,0 +1,78 @@
+<div>
+  <h3>This is Attribute Directives</h3>
+  <span [class.red]="false">Attribute Change</span><br>
+  <span [ngClass]="{'blue': true}">Attribute Change using NgClass</span><br>
+  <span [ngStyle]="{'font-size': '14px', 'color': 'green'}">Attribute Change by using ngStyle</span><br>
+
+  <br>
+
+  <span [class.purple]="showColor">Attribute Change</span><br>
+  <span [ngClass]="{'Brown': true}">Attribute Change using NgClass</span><br>
+  <input type="button" value="Change Color" (click)="changeColor()" />
+</div>
+
+<div>
+</div>
+
+<div *ngFor="let id of ids">
+  id is {{ id }}
+  <div *ngIf="id % 2 === 0; else odd">
+    <div [ngClass]="'one'">even number</div>
+  </div>
+  <ng-template #odd>
+    <div [ngClass]="'two'">odd number</div>
+  </ng-template>
+</div>
+
+<div>
+</div>
+
+<div>
+  <h2>Demonstrate ngSwitch</h2>
+  <table style="width: 100%; border: solid 1px black;">
+    <thead>
+      <tr>
+        <th>Roll No</th>
+        <th>Name</th>
+        <th>Grades</th>
+        <th>Courses</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let student of studentList" align="center">
+        <!-- <td>{{ student.rollNo }}</td>
+        <td>{{ student.name }}</td>
+        <td>{{ student.grade }}</td>
+        <td>{{ student.course }}</td> -->
+        <td [ngSwitch]="student.grade">
+          <span *ngSwitchCase="'A'" [ngStyle]="{'font-size':'18px','color':'red'}">{{ student.rollNo }}</span>
+          <span *ngSwitchCase="'B'" [ngStyle]="{'font-size':'18px','color':'blue'}">{{ student.rollNo }}</span>
+          <span *ngSwitchCase="'C'" [ngStyle]="{'font-size':'18px','color':'green'}">{{ student.rollNo }}</span>
+          <span *ngSwitchDefault [ngStyle]="{'font-size':'18px','color':'black'}">{{ student.rollNo }}</span>
+        </td>
+
+        <td [ngSwitch]="student.grade">
+          <span *ngSwitchCase="'A'" [ngStyle]="{'font-size':'18px','color':'red'}">{{ student.name }}</span>
+          <span *ngSwitchCase="'B'" [ngStyle]="{'font-size':'18px','color':'blue'}">{{ student.name }}</span>
+          <span *ngSwitchCase="'C'" [ngStyle]="{'font-size':'18px','color':'green'}">{{ student.name }}</span>
+          <span *ngSwitchDefault [ngStyle]="{'font-size':'18px','color':'black'}">{{ student.name }}</span>
+        </td>
+
+        <td [ngSwitch]="student.grade">
+          <span *ngSwitchCase="'A'" [ngStyle]="{'font-size':'18px','color':'red'}">{{ student.grade }}</span>
+          <span *ngSwitchCase="'B'" [ngStyle]="{'font-size':'18px','color':'blue'}">{{ student.grade }}</span>
+          <span *ngSwitchCase="'C'" [ngStyle]="{'font-size':'18px','color':'green'}">{{ student.grade }}</span>
+          <span *ngSwitchDefault [ngStyle]="{'font-size':'18px','color':'black'}">{{ student.grade }}</span>
+        </td>
+
+        <td [ngSwitch]="student.grade">
+          <span *ngSwitchCase="'A'" [ngStyle]="{'font-size':'18px','color':'red'}">{{ student.course }}</span>
+          <span *ngSwitchCase="'B'" [ngStyle]="{'font-size':'18px','color':'blue'}">{{ student.course }}</span>
+          <span *ngSwitchCase="'C'" [ngStyle]="{'font-size':'18px','color':'green'}">{{ student.course }}</span>
+          <span *ngSwitchDefault [ngStyle]="{'font-size':'18px','color':'black'}">{{ student.course }}</span>
+        </td>
+
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Chaitanya\\source\\repos\\WebApplication2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{312C304E-D634-41CA-86C6-A1FE5FD4D8D4}|WebApplication2\\WebApplication2.vbproj|c:\\users\\chaitanya\\source\\repos\\webapplication2\\webapplication2\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{312C304E-D634-41CA-86C6-A1FE5FD4D8D4}|WebApplication2\\WebApplication2.vbproj|solutionrelative:webapplication2\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{312C304E-D634-41CA-86C6-A1FE5FD4D8D4}|WebApplication2\\WebApplication2.vbproj|c:\\users\\chaitanya\\source\\repos\\webapplication2\\webapplication2\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{312C304E-D634-41CA-86C6-A1FE5FD4D8D4}|WebApplication2\\WebApplication2.vbproj|solutionrelative:webapplication2\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{312C304E-D634-41CA-86C6-A1FE5FD4D8D4}|WebApplication2\\WebApplication2.vbproj|c:\\users\\chaitanya\\source\\repos\\webapplication2\\webapplication2\\webform1.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{312C304E-D634-41CA-86C6-A1FE5FD4D8D4}|WebApplication2\\WebApplication2.vbproj|solutionrelative:webapplication2\\webform1.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{312C304E-D634-41CA-86C6-A1FE5FD4D8D4}|WebApplication2\\WebApplication2.vbproj|c:\\users\\chaitanya\\source\\repos\\webapplication2\\webapplication2\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{312C304E-D634-41CA-86C6-A1FE5FD4D8D4}|WebApplication2\\WebApplication2.vbproj|solutionrelative:webapplication2\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\Chaitanya\\source\\repos\\WebApplication2\\WebApplication2\\packages.config",
+              "RelativeDocumentMoniker": "WebApplication2\\packages.config",
+              "ToolTip": "C:\\Users\\Chaitanya\\source\\repos\\WebApplication2\\WebApplication2\\packages.config",
+              "RelativeToolTip": "WebApplication2\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-07-08T07:25:27.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Chaitanya\\source\\repos\\WebApplication2\\WebApplication2\\Web.config",
+              "RelativeDocumentMoniker": "WebApplication2\\Web.config",
+              "ToolTip": "C:\\Users\\Chaitanya\\source\\repos\\WebApplication2\\WebApplication2\\Web.config",
+              "RelativeToolTip": "WebApplication2\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAADOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-07-08T07:25:18.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebForm1.aspx.vb",
+              "DocumentMoniker": "C:\\Users\\Chaitanya\\source\\repos\\WebApplication2\\WebApplication2\\WebForm1.aspx.vb",
+              "RelativeDocumentMoniker": "WebApplication2\\WebForm1.aspx.vb",
+              "ToolTip": "C:\\Users\\Chaitanya\\source\\repos\\WebApplication2\\WebApplication2\\WebForm1.aspx.vb",
+              "RelativeToolTip": "WebApplication2\\WebForm1.aspx.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-08T06:38:53.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WebForm1.aspx",
+              "DocumentMoniker": "C:\\Users\\Chaitanya\\source\\repos\\WebApplication2\\WebApplication2\\WebForm1.aspx",
+              "RelativeDocumentMoniker": "WebApplication2\\WebForm1.aspx",
+              "ToolTip": "C:\\Users\\Chaitanya\\source\\repos\\WebApplication2\\WebApplication2\\WebForm1.aspx",
+              "RelativeToolTip": "WebApplication2\\WebForm1.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-08T06:18:57.384Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

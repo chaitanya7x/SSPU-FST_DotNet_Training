@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Chaitanya\\source\\repos\\CodeC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E038AF0-8CE9-4297-8746-F4B9CA85B20D}|CodeC\\CodeC.csproj|c:\\users\\chaitanya\\source\\repos\\codec\\codec\\rdbmscreatelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E038AF0-8CE9-4297-8746-F4B9CA85B20D}|CodeC\\CodeC.csproj|solutionrelative:codec\\rdbmscreatelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E038AF0-8CE9-4297-8746-F4B9CA85B20D}|CodeC\\CodeC.csproj|c:\\users\\chaitanya\\source\\repos\\codec\\codec\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E038AF0-8CE9-4297-8746-F4B9CA85B20D}|CodeC\\CodeC.csproj|solutionrelative:codec\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E038AF0-8CE9-4297-8746-F4B9CA85B20D}|CodeC\\CodeC.csproj|c:\\users\\chaitanya\\source\\repos\\codec\\codec\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E038AF0-8CE9-4297-8746-F4B9CA85B20D}|CodeC\\CodeC.csproj|solutionrelative:codec\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E038AF0-8CE9-4297-8746-F4B9CA85B20D}|CodeC\\CodeC.csproj|c:\\users\\chaitanya\\source\\repos\\codec\\codec\\listconvert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E038AF0-8CE9-4297-8746-F4B9CA85B20D}|CodeC\\CodeC.csproj|solutionrelative:codec\\listconvert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E038AF0-8CE9-4297-8746-F4B9CA85B20D}|CodeC\\CodeC.csproj|C:\\Users\\Chaitanya\\source\\repos\\CodeC\\codec\\dbcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E038AF0-8CE9-4297-8746-F4B9CA85B20D}|CodeC\\CodeC.csproj|solutionrelative:codec\\dbcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Chaitanya\\source\\repos\\CodeC\\CodeC\\Program.cs",
+              "RelativeDocumentMoniker": "CodeC\\Program.cs",
+              "ToolTip": "C:\\Users\\Chaitanya\\source\\repos\\CodeC\\CodeC\\Program.cs",
+              "RelativeToolTip": "CodeC\\Program.cs",
+              "ViewState": "AQIAAEMAAAAA3MzMzMwOwE4AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T06:46:40.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RdbmsCreateList.cs",
+              "DocumentMoniker": "C:\\Users\\Chaitanya\\source\\repos\\CodeC\\CodeC\\RdbmsCreateList.cs",
+              "RelativeDocumentMoniker": "CodeC\\RdbmsCreateList.cs",
+              "ToolTip": "C:\\Users\\Chaitanya\\source\\repos\\CodeC\\CodeC\\RdbmsCreateList.cs",
+              "RelativeToolTip": "CodeC\\RdbmsCreateList.cs",
+              "ViewState": "AQIAAA8AAABAZWZmZuYdwDMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T05:30:50.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "listConvert.cs",
+              "DocumentMoniker": "C:\\Users\\Chaitanya\\source\\repos\\CodeC\\CodeC\\listConvert.cs",
+              "RelativeDocumentMoniker": "CodeC\\listConvert.cs",
+              "ToolTip": "C:\\Users\\Chaitanya\\source\\repos\\CodeC\\CodeC\\listConvert.cs",
+              "RelativeToolTip": "CodeC\\listConvert.cs",
+              "ViewState": "AQIAAAsAAAAAzszMzMwewBMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T05:05:40.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\Chaitanya\\source\\repos\\CodeC\\CodeC\\Menu.cs",
+              "RelativeDocumentMoniker": "CodeC\\Menu.cs",
+              "ToolTip": "C:\\Users\\Chaitanya\\source\\repos\\CodeC\\CodeC\\Menu.cs",
+              "RelativeToolTip": "CodeC\\Menu.cs",
+              "ViewState": "AQIAABIAAACgzMzMzIwqwB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T10:13:13.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DBCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Chaitanya\\source\\repos\\CodeC\\CodeC\\DBCreate.cs",
+              "RelativeDocumentMoniker": "CodeC\\DBCreate.cs",
+              "ToolTip": "C:\\Users\\Chaitanya\\source\\repos\\CodeC\\CodeC\\DBCreate.cs",
+              "RelativeToolTip": "CodeC\\DBCreate.cs",
+              "ViewState": "AQIAAAMAAABAMzMzMzMrwBAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T09:52:34.47Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

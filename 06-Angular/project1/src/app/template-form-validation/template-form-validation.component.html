@@ -1,0 +1,33 @@
+<form #chForm="ngForm" (ngSubmit)="onSubmit(chForm)">
+  <p>
+    <label for="email">Email </label>
+    <input type="text" id="email" required name="email" [(ngModel)]="formEmail" #email="ngModel"
+      pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+  </p>
+  <div *ngIf="email.invalid && (email.dirty || email.touched)">
+    <div *ngIf="email.errors?.['required']">
+      Email is Required.
+    </div>
+    <div *ngIf="email.errors?.['pattern']">
+      Invalid email format.
+    </div>
+  </div>
+
+  <p>
+    <label for="password">Password </label>
+    <input type="password" id="password" required name="password" [(ngModel)]="formPass" #password="ngModel"
+      minlength="8">
+  </p>
+  <div *ngIf="password.invalid && (password.dirty || password.touched)">
+    <div *ngIf="password.errors?.['required']">
+      Password is Required.
+    </div>
+    <div *ngIf="password.errors?.['minlength']">
+      Password must be at least 8 characters long.
+    </div>
+  </div>
+
+  <p>
+    <button type="submit" [disabled]="chForm.invalid">Submit</button>
+  </p>
+</form>

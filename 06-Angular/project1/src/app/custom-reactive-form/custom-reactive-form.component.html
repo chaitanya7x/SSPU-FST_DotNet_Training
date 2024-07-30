@@ -1,0 +1,40 @@
+<form [formGroup]="validatorForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="txtAge">Age:</label>
+    <input type="text" id="txtAge" formControlName="txtAge">
+    <div *ngIf="validatorForm.controls['txtAge'].errors?.['age']">
+      <sup>*</sup>Age should not be more than 18 years old.
+    </div>
+  </div>
+  <p></p>
+  <button type="submit">submit</button>
+</form>
+
+<div>
+  <h4>Form values:</h4>
+  <pre>{{ validatorForm.value | json }}</pre>
+</div>
+
+<div *appCustomDirective="5">
+  <p>This paragraph will be repeated 5 times.</p>
+</div>
+
+1
+username
+pas
+conpass must match
+submit check pass and confirm
+
+phone only num and 10 digit
+
+accept dob cal age disp
+more than 18-100 ok
+other than not ok
+
+2
+db handling asp and <i class="fa fa-angle-double-left" aria-hidden="true"></i>
+create question back mcq pattern 4 op 1 correct
+generate paper out of 20 fetch 5 along with option
+submit user choice
+que -> choice
+

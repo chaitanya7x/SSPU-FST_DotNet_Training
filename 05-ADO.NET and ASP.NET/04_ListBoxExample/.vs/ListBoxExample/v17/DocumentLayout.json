@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Chaitanya\\source\\repos\\ListBoxExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B51A88-9119-4BB1-9F2D-D213AE288E8B}|ListBoxExample\\ListBoxExample.csproj|c:\\users\\chaitanya\\source\\repos\\listboxexample\\listboxexample\\listbox.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E5B51A88-9119-4BB1-9F2D-D213AE288E8B}|ListBoxExample\\ListBoxExample.csproj|solutionrelative:listboxexample\\listbox.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B51A88-9119-4BB1-9F2D-D213AE288E8B}|ListBoxExample\\ListBoxExample.csproj|C:\\Users\\Chaitanya\\source\\repos\\ListBoxExample\\listboxexample\\listbox.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5B51A88-9119-4BB1-9F2D-D213AE288E8B}|ListBoxExample\\ListBoxExample.csproj|solutionrelative:listboxexample\\listbox.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListBox.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Chaitanya\\source\\repos\\ListBoxExample\\ListBoxExample\\ListBox.aspx.cs",
+              "RelativeDocumentMoniker": "ListBoxExample\\ListBox.aspx.cs",
+              "ToolTip": "C:\\Users\\Chaitanya\\source\\repos\\ListBoxExample\\ListBoxExample\\ListBox.aspx.cs",
+              "RelativeToolTip": "ListBoxExample\\ListBox.aspx.cs",
+              "ViewState": "AQIAAA0AAADAMzMzM7MqwBkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T06:37:51.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListBox.aspx",
+              "DocumentMoniker": "C:\\Users\\Chaitanya\\source\\repos\\ListBoxExample\\ListBoxExample\\ListBox.aspx",
+              "RelativeDocumentMoniker": "ListBoxExample\\ListBox.aspx",
+              "ToolTip": "C:\\Users\\Chaitanya\\source\\repos\\ListBoxExample\\ListBoxExample\\ListBox.aspx",
+              "RelativeToolTip": "ListBoxExample\\ListBox.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-09T06:36:17.234Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

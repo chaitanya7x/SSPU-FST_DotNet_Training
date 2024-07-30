@@ -1,0 +1,134 @@
+<h1 align="center">Contact Form</h1>
+
+<form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm)" class="contact-form">
+  <p>
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname" required minlength="2" [(ngModel)]="contact.fname" #fname="ngModel">
+  </p>
+  <div *ngIf="fname.invalid && (fname.dirty || fname.touched)">
+    <div *ngIf="fname.errors?.['required']">
+      First Name is required.
+    </div>
+    <div *ngIf="fname.errors?.['minlength']">
+      First Name must be at least 2 characters long.
+    </div>
+  </div>
+
+  <p>
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lname" required minlength="2" [(ngModel)]="contact.lname" #lname="ngModel">
+  </p>
+  <div *ngIf="lname.invalid && (lname.dirty || lname.touched)">
+    <div *ngIf="lname.errors?.['required']">
+      Last Name is required.
+    </div>
+    <div *ngIf="lname.errors?.['minlength']">
+      Last Name must be at least 2 characters long.
+    </div>
+  </div>
+
+  <p>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required [(ngModel)]="contact.email" #email="ngModel">
+  </p>
+  <div *ngIf="email.invalid && (email.dirty || email.touched)">
+    <div *ngIf="email.errors?.['required']">
+      Email is required.
+    </div>
+    <div *ngIf="email.errors?.['email']">
+      Invalid email format.
+    </div>
+  </div>
+
+  <p>
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required pattern="^\d{10}$" [(ngModel)]="contact.phone" #phone="ngModel">
+  </p>
+  <div *ngIf="phone.invalid && (phone.dirty || phone.touched)">
+    <div *ngIf="phone.errors?.['required']">
+      Phone Number is required.
+    </div>
+    <div *ngIf="phone.errors?.['pattern']">
+      Phone Number must be 10 digits long.
+    </div>
+  </div>
+
+  <p>
+    <label for="gender">Gender:</label>
+    <input type="radio" id="male" name="gender" value="male" required [(ngModel)]="contact.gender" #gender="ngModel"> Male
+    <input type="radio" id="female" name="gender" value="female" [(ngModel)]="contact.gender"> Female
+    <input type="radio" id="other" name="gender" value="other" [(ngModel)]="contact.gender"> Other
+  </p>
+  <div *ngIf="gender.invalid && (gender.dirty || gender.touched)">
+    <div *ngIf="gender.errors?.['required']">
+      Gender is required.
+    </div>
+  </div>
+
+  <p>
+    <label for="country">Country:</label>
+    <select name="country" id="country" required [(ngModel)]="contact.country" #country="ngModel">
+      <option value="" disabled selected>Select your country</option>
+      <option [ngValue]="c.id" *ngFor="let c of countryList">{{ c.name }}</option>
+    </select>
+  </p>
+  <div *ngIf="country.invalid && (country.dirty || country.touched)">
+    <div *ngIf="country.errors?.['required']">
+      Country is required.
+    </div>
+  </div>
+
+  <p>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required minlength="10" [(ngModel)]="contact.message" #message="ngModel"></textarea>
+  </p>
+  <div *ngIf="message.invalid && (message.dirty || message.touched)">
+    <div *ngIf="message.errors?.['required']">
+      Message is required.
+    </div>
+    <div *ngIf="message.errors?.['minlength']">
+      Message must be at least 10 characters long.
+    </div>
+  </div>
+
+  <div ngModelGroup="address" #addressGroup="ngModelGroup">
+    <p>
+      <label for="street">Street:</label>
+      <input type="text" id="street" name="street" required [(ngModel)]="contact.address.street" #street="ngModel">
+    </p>
+    <div *ngIf="street.invalid && (street.dirty || street.touched)">
+      <div *ngIf="street.errors?.['required']">
+        Street is required.
+      </div>
+    </div>
+
+    <p>
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city" required [(ngModel)]="contact.address.city" #city="ngModel">
+    </p>
+    <div *ngIf="city.invalid && (city.dirty || city.touched)">
+      <div *ngIf="city.errors?.['required']">
+        City is required.
+      </div>
+    </div>
+
+    <p>
+      <label for="state">State:</label>
+      <input type="text" id="state" name="state" required [(ngModel)]="contact.address.state" #state="ngModel">
+    </p>
+    <div *ngIf="state.invalid && (state.dirty || state.touched)">
+      <div *ngIf="state.errors?.['required']">
+        State is required.
+      </div>
+    </div>
+  </div>
+
+  <p>
+    <button type="submit" [disabled]="contactForm.invalid">Submit</button>
+  </p>
+</form>
+
+<div *ngIf="a">
+  <h2>Submitted Data</h2>
+  <pre>{{ a | json }}</pre>
+</div>

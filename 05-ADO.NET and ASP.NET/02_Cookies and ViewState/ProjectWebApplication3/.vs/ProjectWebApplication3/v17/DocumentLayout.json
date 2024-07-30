@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Chaitanya\\source\\repos\\ProjectWebApplication3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B7DDC19A-1AEF-46A2-854E-AF1C2A463FEB}|ProjectWebApplication3\\ProjectWebApplication3.csproj|c:\\users\\chaitanya\\source\\repos\\projectwebapplication3\\projectwebapplication3\\postbackexample.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B7DDC19A-1AEF-46A2-854E-AF1C2A463FEB}|ProjectWebApplication3\\ProjectWebApplication3.csproj|solutionrelative:projectwebapplication3\\postbackexample.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7DDC19A-1AEF-46A2-854E-AF1C2A463FEB}|ProjectWebApplication3\\ProjectWebApplication3.csproj|C:\\Users\\Chaitanya\\source\\repos\\ProjectWebApplication3\\projectwebapplication3\\postbackexample.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7DDC19A-1AEF-46A2-854E-AF1C2A463FEB}|ProjectWebApplication3\\ProjectWebApplication3.csproj|solutionrelative:projectwebapplication3\\postbackexample.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PostBackExample.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Chaitanya\\source\\repos\\ProjectWebApplication3\\ProjectWebApplication3\\PostBackExample.aspx.cs",
+              "RelativeDocumentMoniker": "ProjectWebApplication3\\PostBackExample.aspx.cs",
+              "ToolTip": "C:\\Users\\Chaitanya\\source\\repos\\ProjectWebApplication3\\ProjectWebApplication3\\PostBackExample.aspx.cs",
+              "RelativeToolTip": "ProjectWebApplication3\\PostBackExample.aspx.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAQwBoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T15:21:25.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PostBackExample.aspx",
+              "DocumentMoniker": "C:\\Users\\Chaitanya\\source\\repos\\ProjectWebApplication3\\ProjectWebApplication3\\PostBackExample.aspx",
+              "RelativeDocumentMoniker": "ProjectWebApplication3\\PostBackExample.aspx",
+              "ToolTip": "C:\\Users\\Chaitanya\\source\\repos\\ProjectWebApplication3\\ProjectWebApplication3\\PostBackExample.aspx",
+              "RelativeToolTip": "ProjectWebApplication3\\PostBackExample.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-11T15:21:04.535Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

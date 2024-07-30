@@ -1,0 +1,19 @@
+<p>diexample works!</p>
+
+<strong>{{ makeComputer() }}</strong>
+
+<div>
+  <h2>Product</h2>
+  <p>ID: {{ product.pid }}</p>
+  <p>Name: {{ product.pname }}</p>
+  <p>Quantity: {{ product.pqty }}</p>
+  <button (click)="addToCart()">Add to Cart</button>
+</div>
+<div>
+  <h2>Cart</h2>
+  <ul>
+    <li *ngFor="let item of cart.getProducts()">
+      {{ item.pname }} ({{ item.pqty }})
+    </li>
+  </ul>
+</div>

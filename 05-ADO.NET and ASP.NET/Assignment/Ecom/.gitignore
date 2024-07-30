@@ -1,0 +1,135 @@
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (Mono auto-generated)
+mono_crash.*
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# VS Code directories
+.vscode/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# NGEN map files
+*.map
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Windows event logs
+*.evtx
+
+# Windows Update files
+*.regtrans-ms
+
+# Windows volume shadow copy
+*.vhd
+*.vhdx
+
+# End of the list of specific Windows OS files
+*.dbmdl
+*.jfm
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Node
+node_modules/
+
+# Crashlytics for Firebase
+crashlytics-build.properties
+fabric.properties
+
+# Auto-generated Universal Windows Platform crash files
+msbuild_*.failure.txt
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Windows event logs
+*.evtx
+
+# Windows Update files
+*.regtrans-ms
+
+# Windows volume shadow copy
+*.vhd
+*.vhdx
+
+# Backup files
+*.bak
+*.swp
+*.swn
+*.swo
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Rider
+.idea/
+*.sln.iml
+
+# Keystore files
+*.jks
+
+# OSX auto-generated files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Icon must end with two \r
+Icon
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk

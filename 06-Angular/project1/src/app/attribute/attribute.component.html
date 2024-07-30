@@ -1,0 +1,26 @@
+<p>attribute works!</p>
+<div *ngIf="num % 2 === 0; else odd_number">
+  <h2>Even number</h2>
+</div>
+<ng-template #odd_number>
+  <h2>Odd number</h2>
+</ng-template>
+
+<div>
+  <div [ngSwitch]="alpha">
+    <div *ngSwitchCase="'a'">{{alpha}} is a vowel</div>
+    <div *ngSwitchCase="'e'">{{alpha}} is a vowel</div>
+    <div *ngSwitchCase="'i'">{{alpha}} is a vowel</div>
+    <div *ngSwitchCase="'o'">{{alpha}} is a vowel</div>
+    <div *ngSwitchCase="'u'">{{alpha}} is a vowel</div>
+    <div *ngSwitchDefault><b>{{alpha}}</b> is a consonant</div>
+  </div>
+</div>
+
+<div *ngIf="a > 0; else negative">
+  <h1>Number is Positive</h1>
+</div>
+<ng-template #negative>
+  <h1>Number is Negative</h1>
+</ng-template>
+

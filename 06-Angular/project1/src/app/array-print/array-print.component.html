@@ -1,0 +1,29 @@
+<!-- <div *ngFor="let student of students">
+  <p>Name: {{ student.name }}</p>
+  <p>Roll No: {{ student.rollNo }}</p>
+  <p>Age: {{ student.age }}</p>
+  <hr>
+</div> -->
+
+<span *ngFor="let item of numArray; let i = index">
+  {{ item }}<br>
+</span>
+
+<!-- Display fruits items -->
+<span *ngFor="let item of fruits; let i = index">
+  {{ item }}
+</span>
+
+<!-- Display students -->
+ <br>
+ <br>
+ <span *ngFor="let student of StudentList; let i = index">
+  Name: {{ student.name }}, Roll No: {{ student.rollNo }}, Age: {{ student.age }}<br>
+</span>
+
+<div>
+  <select [(ngModel)]="selectedCity">
+    <option *ngFor="let city of cities" [value]="city">{{ city }}</option>
+    </select>
+    <p>Selected City: {{ selectedCity }}</p>
+</div>

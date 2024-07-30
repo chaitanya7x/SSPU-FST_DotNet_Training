@@ -1,0 +1,28 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "112211221122"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "phone": "334433443344"
+    },
+    {
+      "id": 3,
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "phone": "556655665566"
+    },
+    {
+      "id": 4,
+      "name": "Chaitanya Madhav Mate",
+      "email": "1002matechm@gmail.com",
+      "phone": "08275501401"
+    }
+  ]
+}

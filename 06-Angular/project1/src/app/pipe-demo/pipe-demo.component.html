@@ -1,0 +1,53 @@
+<div>
+  <h3>
+    Date : {{today}} <br>
+    Date Pipe : {{today |date}} <br>
+    Date Pipe : {{today |date:'short'}} <br>
+    Name : {{myName | uppercase}} <br>
+    Name : {{myName | slice:6 }} <br>
+  </h3>
+
+  <br>
+
+  <h3>Currency Pipes</h3>
+  <h3>
+    Currency : {{12345.6789 | currency:'USD'}} <br>
+    Currency : {{12345.6789 | currency:'EUR'}} <br>
+    Currency : {{12345.6789 | currency:'GBP'}} <br>
+  </h3>
+
+  <br>
+
+  <h3>Slice Pipes</h3>
+  <h3>
+    Slice : {{months | slice:2:5}} <br>
+  </h3>
+
+  <br>
+
+  <h3>Decimal Pipe</h3>
+  <h3>
+
+    Decimal : {{12345.6789 | number:'1.2-2'}} <br>
+  </h3>
+
+  <h3>Custom SquareRootPipe</h3>
+  <h3>
+    Square Root : {{16 | squareRootPipe}} <br>
+  </h3>
+
+  <h3>Rev String</h3>
+  <h3>
+    Rev String : {{"Hello World"| revStringPipe}} <br>
+  </h3>
+
+  <h3>Cube Pipe</h3>
+<h3>Enter the No.</h3>
+<input type="number" [(ngModel)]="numberInput">
+  <h3>Cube of {{numberInput}}: {{numberInput | cubePipe}}</h3>
+
+  <h3>Palindrome pip3</h3>
+  <h3>Enter the string</h3>
+  <input type="text" [(ngModel)]="inputString">
+  <h3>{{inputString}} is : {{inputString | palindrome}}</h3>
+</div>
