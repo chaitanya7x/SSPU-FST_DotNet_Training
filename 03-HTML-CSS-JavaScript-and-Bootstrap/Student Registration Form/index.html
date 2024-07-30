@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 align="center">Student Registration Form</h1>
+    <form action="/" method="post" onsubmit="show_alert(); ">
+        <div align="center">
+            <label for="fname"> Firstname: </label>
+            <input type="text" name="fname" id="fname" placeholder="Firstname" required />
+            <br>
+            <label for="mname"> Middlename: </label>
+            <input type="text" name="mname" id="mname" placeholder="Middlename" required />
+            <br>
+            <label for="lname"> Lastname: </label>
+            <input type="text" name="lname" placeholder="Lastname" id="lname" required />
+            <br>
+            <label> Email: </label>
+            <input type="email" name="email" placeholder="Email" id="email" required />
+            <br>
+            <label> Password: </label>
+            <input type="password" name="password" placeholder="Password" id="pass" required />
+            <br>
+            <label for="gender">Enter your gender:</label>
+            <input type="radio" id="radio" name="gender" value="male" />Male
+            <input type="radio" id="radio" name="gender" value="female" />Female
+            <input type="radio" id="radio" name="gender" value="others" />Others
+            <br>
+            <label>Enter your Date of Birth:</label>
+            <input type="date" name="dob"id="dob" />
+            <br>
+            <label>Enter your Address:</label>
+            <textarea name="address" id="add"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+    <script type="text/javascript">
+       
+       function show_alert() {
+            alert("Welcome, " + document.getElementById('fname').value + " " + document.getElementById('mname').value + " " + document.getElementById('lname').value + "\nEmail : " + document.getElementById('email').value + "\nPassword : " + document.getElementById('pass').value + "\nGender : " + document.getElementById('radio').value+"\nDate of Birth : "+document.getElementById('dob').value+"\nAddress : "+document.getElementById('add').value);
+        }
+        
+    </script>
+</body>
+
+</html>

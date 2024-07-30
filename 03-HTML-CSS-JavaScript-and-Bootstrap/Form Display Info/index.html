@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 align="center">Student Registration Form</h1>
+    <form id="registrationForm" onsubmit="displayInfo(event)">
+        <div align="center">
+            <label for="fname"> Firstname: </label>
+            <input type="text" name="fname" id="fname" placeholder="Firstname" required />
+            <br>
+            <label for="mname"> Middlename: </label>
+            <input type="text" name="mname" id="mname" placeholder="Middlename" required />
+            <br>
+            <label for="lname"> Lastname: </label>
+            <input type="text" name="lname" placeholder="Lastname" id="lname" required />
+            <br>
+            <label> Email: </label>
+            <input type="email" name="email" placeholder="Email" id="email" required />
+            <br>
+            <label> Password: </label>
+            <input type="password" name="password" placeholder="Password" id="pass" required />
+            <br>
+            <label for="gender">Enter your gender:</label>
+            <input type="radio" name="gender" value="male" />Male
+            <input type="radio" name="gender" value="female" />Female
+            <input type="radio" name="gender" value="others" />Others
+            <br>
+            <label>Enter your Date of Birth:</label>
+            <input type="date" name="dob" id="dob" />
+            <br>
+            <label>Enter your Address:</label>
+            <textarea name="address" id="add"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+    <div id="submittedInfo" style="text-align: center; margin-top: 20px;"></div>
+    <script type="text/javascript">
+        function displayInfo(event) {
+            event.preventDefault();
+
+            const fname = document.getElementById('fname').value;
+            const mname = document.getElementById('mname').value;
+            const lname = document.getElementById('lname').value;
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('pass').value;
+            const gender = document.querySelector('input[name="gender"]:checked').value;
+            const dob = document.getElementById('dob').value;
+            const address = document.getElementById('add').value;
+
+            const info = `
+                <h2>Submitted Information</h2>
+                <p><strong>Firstname:</strong> ${fname}</p>
+                <p><strong>Middlename:</strong> ${mname}</p>
+                <p><strong>Lastname:</strong> ${lname}</p>
+                <p><strong>Email:</strong> ${email}</p>
+                <p><strong>Password:</strong> ${password}</p>
+                <p><strong>Gender:</strong> ${gender}</p>
+                <p><strong>Date of Birth:</strong> ${dob}</p>
+                <p><strong>Address:</strong> ${address}</p>
+            `;
+
+            document.getElementById('submittedInfo').innerHTML = info;
+            document.getElementById('registrationForm').style.display = 'none';
+        }
+    </script>
+</body>
+
+</html>
